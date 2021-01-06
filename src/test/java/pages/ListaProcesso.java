@@ -24,6 +24,10 @@ public class ListaProcesso extends BasePage {
         driver.ChooseOkOnNextConfirmation();
     }
 
+    public void clickEditar(String code){
+        driver.click("btn-edit_"+code);
+    }
+
     public boolean existDeleteButton(String code) {
         boolean res = true;
         try{

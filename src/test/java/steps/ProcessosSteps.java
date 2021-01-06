@@ -69,4 +69,29 @@ public class ProcessosSteps extends BaseSteps {
 
         Assert.assertEquals(texto,valor);
     }
+
+    @Quando("^o usuário clicar no botão excluir do Processo Cadastrado$")
+    public void oUsuárioClicarNoBotãoExcluirDoProcessoCadastrado() {
+        listaProcesso.clickDelete(processos.getCode());
+    }
+
+    @E("^o usuário confirmar a exclusão$")
+    public void oUsuárioConfirmarAExclusão() {
+        listaProcesso.deleteConfirm();
+    }
+
+    @Então("^o botão apagar não pode mais existir para o Processo Cadastrado$")
+    public void oBotãoApagarNãoPodeMaisExistirParaOProcessoCadastrado() {
+        Assert.assertFalse(listaProcesso.existDeleteButton(processos.getCode()));
+    }
+
+    @E("^o usuário clicar em editar$")
+    public void oUsuárioClicarEmEditar() {
+        listaProcesso.clickEditar(processos.getCode());
+    }
+
+    @E("^o usuário deveria ver a mensagem \"([^\"]*)\"$")
+    public void oUsuárioDeveriaVerAMensagem(String message) {
+        Assert.assertEquals(message, mostrarProcesso.getNotice());
+    }
 }
