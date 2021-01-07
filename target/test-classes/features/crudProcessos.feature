@@ -43,10 +43,25 @@
       E o usuário confirmar a exclusão
       Então o botão apagar não pode mais existir para o Processo Cadastrado
 
-    Cenario: Editar um usuário.
+    Cenario: Editar um processo.
       E o usuário clicar no botão salvar no cadastro de processos
       E o usuário clicar em voltar para processos
       E o usuário clicar em editar
       E o usuário preenche o campo "processo_vara" com o valor "Teste Vara Update" no cadastro de processos
       Quando o usuário clicar no botão salvar no cadastro de processos
       E o usuário deveria ver a mensagem "Processo atualizado com sucesso."
+
+    Esquema do Cenario: Editar um processo com esquema de cenario.
+      E o usuário clicar no botão salvar no cadastro de processos
+      E o usuário clicar em voltar para processos
+      E o usuário clicar em editar
+      E o usuário preenche o campo "<campoEditar>" com o valor "<valor>" no cadastro de processos
+      E o usuário clicar no botão salvar no cadastro de processos
+      E o usuário clicar em voltar para processos
+      E o usuário clicar em mostrar processo
+      Então o usuário deveria ver valor "<valor>" no campo "<campoMostrar>"
+      Exemplos:
+        | campoEditar   | valor              | campoMostrar |
+        | processo_vara | Teste Vara Cenario | vara         |
+        | processo_numero_processo | 1234 | numero         |
+

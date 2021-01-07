@@ -24,8 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b55e089-384b-4b43-bb14-b60fec027da9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ListaProcesso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ListaProcesso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ProcessosSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ProcessosSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/crudProcessos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/crudProcessos.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Aula4_Selenium/impacta-system-testing/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -68,7 +66,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Editar um usuário.">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Editar um processo com esquema de cenario.">
     <configuration name="Feature: crudProcessos" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/crudProcessos.feature" />
@@ -128,15 +126,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Editar um usuário." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Editar um processo com esquema de cenario." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/crudProcessos.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="system-testing" />
-      <option name="NAME_FILTER" value="^Editar um usuário\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Editar um usuário\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Editar um usuário." />
+      <option name="NAME_FILTER" value="^Editar um processo com esquema de cenario\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Editar um processo com esquema de cenario\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Editar um processo com esquema de cenario." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -148,15 +146,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Mostrar usuário." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Editar um usuário." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/crudProcessos.feature" />
       <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="system-testing" />
-      <option name="NAME_FILTER" value="^Mostrar usuário\.$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Mostrar usuário\.$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Mostrar usuário." />
+      <option name="NAME_FILTER" value="^Editar um usuário\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Editar um usuário\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Editar um usuário." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -195,19 +193,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Scenario: Adicionar um novo processo." />
-      <item itemvalue="Cucumber Java.Scenario: Mostrar usuário." />
       <item itemvalue="Cucumber Java.Feature: crudProcessos" />
-      <item itemvalue="Maven.system-testing [verify]" />
       <item itemvalue="Cucumber Java.Scenario: Deletar um usuário." />
       <item itemvalue="Cucumber Java.Scenario: Editar um usuário." />
+      <item itemvalue="Maven.system-testing [verify]" />
+      <item itemvalue="Cucumber Java.Scenario: Editar um processo com esquema de cenario." />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Editar um processo com esquema de cenario." />
         <item itemvalue="Cucumber Java.Scenario: Editar um usuário." />
         <item itemvalue="Cucumber Java.Scenario: Deletar um usuário." />
         <item itemvalue="Cucumber Java.Feature: crudProcessos" />
         <item itemvalue="Cucumber Java.Scenario: Adicionar um novo processo." />
-        <item itemvalue="Cucumber Java.Scenario: Mostrar usuário." />
       </list>
     </recent_temporary>
   </component>
@@ -247,22 +245,22 @@
       <screen x="44" y="27" width="1322" height="741" />
     </state>
     <state x="483" y="159" width="424" height="491" key="FileChooserDialogImpl/44.27.1322.741@44.27.1322.741" timestamp="1609964474030" />
-    <state width="1276" height="192" key="GridCell.Tab.0.bottom" timestamp="1609965950230">
+    <state width="1276" height="192" key="GridCell.Tab.0.bottom" timestamp="1609971365831">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="192" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1609965950230" />
-    <state width="1276" height="192" key="GridCell.Tab.0.center" timestamp="1609965950229">
+    <state width="1276" height="192" key="GridCell.Tab.0.bottom/44.27.1322.741@44.27.1322.741" timestamp="1609971365831" />
+    <state width="1276" height="192" key="GridCell.Tab.0.center" timestamp="1609971365831">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="192" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1609965950229" />
-    <state width="1276" height="192" key="GridCell.Tab.0.left" timestamp="1609965950228">
+    <state width="1276" height="192" key="GridCell.Tab.0.center/44.27.1322.741@44.27.1322.741" timestamp="1609971365831" />
+    <state width="1276" height="192" key="GridCell.Tab.0.left" timestamp="1609971365830">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="192" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1609965950228" />
-    <state width="1276" height="192" key="GridCell.Tab.0.right" timestamp="1609965950229">
+    <state width="1276" height="192" key="GridCell.Tab.0.left/44.27.1322.741@44.27.1322.741" timestamp="1609971365830" />
+    <state width="1276" height="192" key="GridCell.Tab.0.right" timestamp="1609971365831">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
-    <state width="1276" height="192" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1609965950229" />
+    <state width="1276" height="192" key="GridCell.Tab.0.right/44.27.1322.741@44.27.1322.741" timestamp="1609971365831" />
     <state width="638" height="104" key="GridCell.Tab.1.bottom" timestamp="1609891090639">
       <screen x="44" y="27" width="1322" height="741" />
     </state>
