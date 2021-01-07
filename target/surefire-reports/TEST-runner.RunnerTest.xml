@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="32.384" tests="25" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="150.112" tests="140" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2020.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="5.4.0-58-generic"/>
+    <property name="os.version" value="5.4.0-59-generic"/>
     <property name="user.home" value="/home/alan"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -64,29 +64,144 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Dado que o usuário está na página inicial" classname="Cenario: Mostrar usuário." time="0.002"/>
-  <testcase name="E que o usuário clica no menu processos" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário clica no botão Novo Processo" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário preenche o campo &quot;processo_vara&quot; com o valor &quot;Teste Vara Insert&quot; no cadastro de processos" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário preenche o campo &quot;processo_numero_processo&quot; com o valor &quot;123&quot; no cadastro de processos" classname="Cenario: Mostrar usuário." time="0.002"/>
-  <testcase name="E o usuário preenche o campo &quot;processo_natureza&quot; com o valor &quot;aaa&quot; no cadastro de processos" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário preenche o campo &quot;processo_partes&quot; com o valor &quot;asdasd&quot; no cadastro de processos" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário preenche o campo &quot;processo_urgente&quot; com o valor &quot;Sim&quot; no cadastro de processos" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário preenche o campo &quot;arbitramento&quot; com o valor &quot;sim&quot; no cadastro de processos" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário preenche o campo &quot;processo_assistente_social&quot; com o valor &quot;amnsvbd&quot; no cadastro de processos" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário preenche o campo &quot;processo_data_entrada&quot; com o valor &quot;17/12/2020&quot; no cadastro de processos" classname="Cenario: Mostrar usuário." time="0.001"/>
-  <testcase name="E o usuário preenche o campo &quot;processo_status&quot; com o valor &quot;aberto&quot; no cadastro de processos" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário clicar no botão salvar no cadastro de processos" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário clicar em voltar para processos" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário clicar em mostrar processo" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="Então o usuário deveria ver valor &quot;Teste Vara Insert&quot; no campo &quot;vara&quot;" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário deveria ver valor &quot;123&quot; no campo &quot;numero&quot;" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário deveria ver valor &quot;aaa&quot; no campo &quot;natureza&quot;" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário deveria ver valor &quot;asdasd&quot; no campo &quot;partes&quot;" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário deveria ver valor &quot;S&quot; no campo &quot;urgente&quot;" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário deveria ver valor &quot;S&quot; no campo &quot;arbitramento&quot;" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário deveria ver valor &quot;amnsvbd&quot; no campo &quot;as_social&quot;" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário deveria ver valor &quot;2020-12-17&quot; no campo &quot;dt_entrada&quot;" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="E o usuário deveria ver valor &quot;aberto&quot; no campo &quot;status&quot;" classname="Cenario: Mostrar usuário." time="0"/>
-  <testcase name="Cenario: Mostrar usuário." classname="Cenario: Mostrar usuário." time="0.086"/>
+  <testcase name="Dado que o usuário está na página inicial" classname="Cenario: Adicionar um novo processo." time="0.003"/>
+  <testcase name="E que o usuário clica no menu processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário clica no botão Novo Processo" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_vara&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_numero_processo&quot; com o valor &quot;123&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_natureza&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_partes&quot; com o valor &quot;AlanXAnderson&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_urgente&quot; com o valor &quot;Sim&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;arbitramento&quot; com o valor &quot;sim&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_assistente_social&quot; com o valor &quot;Robson&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_entrada&quot; com o valor &quot;17/12/2020&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_saida&quot; com o valor &quot;10/01/2021&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_agendamento&quot; com o valor &quot;09/01/2021&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_status&quot; com o valor &quot;Aberto&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_observacao&quot; com o valor &quot;Fechamento de Materia&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0.001"/>
+  <testcase name="Quando o usuário clicar no botão salvar no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0.001"/>
+  <testcase name="Então o usuário deveria ver a mensagem &quot;Processo foi criado com sucesso.&quot; no cadastro de processos" classname="Cenario: Adicionar um novo processo." time="0"/>
+  <testcase name="Cenario: Adicionar um novo processo." classname="Cenario: Adicionar um novo processo." time="0.088"/>
+  <testcase name="Dado que o usuário está na página inicial" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E que o usuário clica no menu processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário clica no botão Novo Processo" classname="Cenario: Consultar um usuário." time="0.002"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_vara&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_numero_processo&quot; com o valor &quot;123&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_natureza&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_partes&quot; com o valor &quot;AlanXAnderson&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_urgente&quot; com o valor &quot;Sim&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;arbitramento&quot; com o valor &quot;sim&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_assistente_social&quot; com o valor &quot;Robson&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_entrada&quot; com o valor &quot;17/12/2020&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_saida&quot; com o valor &quot;10/01/2021&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0.001"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_agendamento&quot; com o valor &quot;09/01/2021&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_status&quot; com o valor &quot;Aberto&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_observacao&quot; com o valor &quot;Fechamento de Materia&quot; no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário clicar no botão salvar no cadastro de processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário clicar em voltar para processos" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário clicar em mostrar processo" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="Então o usuário deveria ver valor &quot;Criminal&quot; no campo &quot;vara&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário deveria ver valor &quot;123&quot; no campo &quot;numero&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário deveria ver valor &quot;Criminal&quot; no campo &quot;natureza&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário deveria ver valor &quot;AlanXAnderson&quot; no campo &quot;partes&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário deveria ver valor &quot;S&quot; no campo &quot;urgente&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário deveria ver valor &quot;S&quot; no campo &quot;arbitramento&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário deveria ver valor &quot;Robson&quot; no campo &quot;as_social&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário deveria ver valor &quot;2020-12-17&quot; no campo &quot;dt_entrada&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário deveria ver valor &quot;2021-01-10&quot; no campo &quot;dt_saida&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário deveria ver valor &quot;2021-01-09&quot; no campo &quot;dt_agendamento&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário deveria ver valor &quot;Aberto&quot; no campo &quot;status&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="E o usuário deveria ver valor &quot;Fechamento de Materia&quot; no campo &quot;observacao&quot;" classname="Cenario: Consultar um usuário." time="0"/>
+  <testcase name="Cenario: Consultar um usuário." classname="Cenario: Consultar um usuário." time="0.081"/>
+  <testcase name="Dado que o usuário está na página inicial" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E que o usuário clica no menu processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário clica no botão Novo Processo" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_vara&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_numero_processo&quot; com o valor &quot;123&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_natureza&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_partes&quot; com o valor &quot;AlanXAnderson&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_urgente&quot; com o valor &quot;Sim&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;arbitramento&quot; com o valor &quot;sim&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_assistente_social&quot; com o valor &quot;Robson&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_entrada&quot; com o valor &quot;17/12/2020&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_saida&quot; com o valor &quot;10/01/2021&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_agendamento&quot; com o valor &quot;09/01/2021&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_status&quot; com o valor &quot;Aberto&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_observacao&quot; com o valor &quot;Fechamento de Materia&quot; no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário clicar no botão salvar no cadastro de processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="E o usuário clicar em voltar para processos" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="Quando o usuário clicar no botão excluir do Processo Cadastrado" classname="Cenario: Deletar um Processo." time="0.001"/>
+  <testcase name="E o usuário confirmar a exclusão" classname="Cenario: Deletar um Processo." time="0.001"/>
+  <testcase name="Então o botão apagar não pode mais existir para o Processo Cadastrado" classname="Cenario: Deletar um Processo." time="0"/>
+  <testcase name="Cenario: Deletar um Processo." classname="Cenario: Deletar um Processo." time="0.077"/>
+  <testcase name="Dado que o usuário está na página inicial" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E que o usuário clica no menu processos" classname="Cenario: Editar um processo." time="0.002"/>
+  <testcase name="E o usuário clica no botão Novo Processo" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_vara&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_numero_processo&quot; com o valor &quot;123&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_natureza&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_partes&quot; com o valor &quot;AlanXAnderson&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_urgente&quot; com o valor &quot;Sim&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;arbitramento&quot; com o valor &quot;sim&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_assistente_social&quot; com o valor &quot;Robson&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_entrada&quot; com o valor &quot;17/12/2020&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_saida&quot; com o valor &quot;10/01/2021&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_agendamento&quot; com o valor &quot;09/01/2021&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_status&quot; com o valor &quot;Aberto&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_observacao&quot; com o valor &quot;Fechamento de Materia&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário clicar no botão salvar no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário clicar em voltar para processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário clicar em editar" classname="Cenario: Editar um processo." time="0.005"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_vara&quot; com o valor &quot;Penal&quot; no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="Quando o usuário clicar no botão salvar no cadastro de processos" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="E o usuário deveria ver a mensagem &quot;Processo atualizado com sucesso.&quot;" classname="Cenario: Editar um processo." time="0"/>
+  <testcase name="Cenario: Editar um processo." classname="Cenario: Editar um processo." time="0.085"/>
+  <testcase name="Dado que o usuário está na página inicial" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E que o usuário clica no menu processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário clica no botão Novo Processo" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_vara&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_numero_processo&quot; com o valor &quot;123&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_natureza&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_partes&quot; com o valor &quot;AlanXAnderson&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_urgente&quot; com o valor &quot;Sim&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;arbitramento&quot; com o valor &quot;sim&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_assistente_social&quot; com o valor &quot;Robson&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_entrada&quot; com o valor &quot;17/12/2020&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_saida&quot; com o valor &quot;10/01/2021&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_agendamento&quot; com o valor &quot;09/01/2021&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0.002"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_status&quot; com o valor &quot;Aberto&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_observacao&quot; com o valor &quot;Fechamento de Materia&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário clicar no botão salvar no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário clicar no botão salvar no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário clicar em voltar para processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário clicar em voltar para processos" classname="| processo_vara | Vara Cenario | vara |" time="0.001"/>
+  <testcase name="E o usuário clicar em editar" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_vara&quot; com o valor &quot;Vara Cenario&quot; no cadastro de processos" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="E o usuário clicar em mostrar processo" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="Então o usuário deveria ver valor &quot;Vara Cenario&quot; no campo &quot;vara&quot;" classname="| processo_vara | Vara Cenario | vara |" time="0"/>
+  <testcase name="| processo_vara | Vara Cenario | vara |" classname="| processo_vara | Vara Cenario | vara |" time="0.089"/>
+  <testcase name="Dado que o usuário está na página inicial" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E que o usuário clica no menu processos" classname="| processo_numero_processo | 1234 | numero |" time="0.001"/>
+  <testcase name="E o usuário clica no botão Novo Processo" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_vara&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_numero_processo&quot; com o valor &quot;123&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_natureza&quot; com o valor &quot;Criminal&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_partes&quot; com o valor &quot;AlanXAnderson&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_urgente&quot; com o valor &quot;Sim&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;arbitramento&quot; com o valor &quot;sim&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_assistente_social&quot; com o valor &quot;Robson&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_entrada&quot; com o valor &quot;17/12/2020&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_saida&quot; com o valor &quot;10/01/2021&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_data_agendamento&quot; com o valor &quot;09/01/2021&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_status&quot; com o valor &quot;Aberto&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_observacao&quot; com o valor &quot;Fechamento de Materia&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário clicar no botão salvar no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário clicar no botão salvar no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário clicar em voltar para processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário clicar em voltar para processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário clicar em editar" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário preenche o campo &quot;processo_numero_processo&quot; com o valor &quot;1234&quot; no cadastro de processos" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="E o usuário clicar em mostrar processo" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="Então o usuário deveria ver valor &quot;1234&quot; no campo &quot;numero&quot;" classname="| processo_numero_processo | 1234 | numero |" time="0"/>
+  <testcase name="| processo_numero_processo | 1234 | numero |" classname="| processo_numero_processo | 1234 | numero |" time="0.077"/>
 </testsuite>
